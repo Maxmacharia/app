@@ -3,7 +3,7 @@ function RealGiftPage() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-pink-50 p-6">
       <img
-        src={`{import.meta.env.BASE_URL}gift.jpg`}
+        src={`${import.meta.env.BASE_URL}gift.jpg`}
         alt="Real gift"
         className="w-80 h-auto rounded-2xl shadow-xl mb-6 border-4 border-rose-300"
       />
