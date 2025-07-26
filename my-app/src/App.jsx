@@ -10,16 +10,16 @@ import RealGiftPage from "./pages/RealGiftPage";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/app">
       <Routes>
         <Route path="/" element={<SplashPage />} />
         <Route path="/video" element={<VideoPage />} />
         <Route path="/page2" element={<Page2 />} />
-	<Route path="/quiz" element={<LoveQuizPage/>}/>
-	<Route path="/gift" element={<GiftPage/>}/>
-	<Route path="/heart-game" element={<HeartGamePage/>}/>
-	<Route path="/gift-2" element={<GiftPage2/>}/>
-	<Route path="/real-gift" element={<RealGiftPage/>}/>
+        <Route path="/quiz" element={<LoveQuizPage />} />
+        <Route path="/heart-game" element={<HeartGamePage />} />
+        <Route path="/gift" element={<GiftPage />} />
+        <Route path="/gift-2" element={<GiftPage2 />} />
+        <Route path="/real-gift" element={<RealGiftPage />} />
       </Routes>
     </Router>
   );
