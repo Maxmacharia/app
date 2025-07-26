@@ -34,7 +34,7 @@ export default function VideoPage() {
           className="rounded-2xl shadow-lg w-full mb-6 cursor-pointer"
           controls
         >
-          <source src="/video.mp4" type="video/mp4" />
+          <source src={`${import.meta.env.BASE_URL}video.mp4`} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
